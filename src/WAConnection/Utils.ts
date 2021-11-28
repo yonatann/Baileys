@@ -15,6 +15,7 @@ import got, { Options, Response } from 'got'
 import { join } from 'path'
 import { IAudioMetadata } from 'music-metadata'
 import { once } from 'events'
+import { Long } from 'protobufjs'
 
 const platformMap = {
     'aix': 'AIX',
